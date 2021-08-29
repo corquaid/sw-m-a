@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Marta & Adam's Website</title>
+    </head>
+    <body>
+        <script>
+            const adamSpin = () => {
+                let element = document.getElementById("adam-photo");
+                element.classList.add("rotate");
+            };
+
+            const martaSpin = () => {
+                let element = document.getElementById("marta-photo");
+                element.classList.add("rotate");
+            };
+
+            const stopSpin = () => {
+                let element = document.getElementById("adam-photo");
+                element.classList.remove("rotate");
+
+                let element2 = document.getElementById("marta-photo");
+                element2.classList.remove("rotate");
+            };
+        </script>
+        <style>
+            body {
+                background-color: white;
+                width: 90vw;
+                margin: 10px;
+                /* overflow: hidden; */
+            }
+
+            @font-face {
+                font-family: starwars;
+                src: url(./Starjedi.ttf);
+            }
+
+            h1 {
+                color: red;
+            }
+
+            h2 {
+                color: red;
+            }
+
+            p {
+                color: blueviolet;
+                font-size: 20px;
+            }
+
+            img {
+                height: 400px;
+                width: auto;
+                margin: 25px;
+            }
+
+            #adam {
+                color: RED;
+            }
+
+            #photo-container {
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-left: 200px;
+            }
+
+            #main-photo-container {
+                width: 100vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            #grid-container {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+            }
+
+            #grid-photo {
+                width: 600px;
+                height: auto;
+            }
+
+            #sw-font {
+                font-family: starwars, sans-serif;
+                color: green
+            }
+
+            button {
+                width: 60%;
+                background-color: green;
+                color: white;
+                height: 50px;
+                font-size: 15px;
+                font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+            }
+
+            .rotate {
+                animation: rotation 2s infinite linear;
+            }
+
+            @keyframes rotation {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(359deg);
+                }
+            }
+        </style>
+
+        <h1>WELCOME TO MARTA AND ADAM'S AWESOME WEBSITE!</h1>
+        <h2>l, l ;nmkll,kllllllllllllllllll,jk,jk,jl.k.j.ljj,.jjk.ljklp]jlijhiggihjy423452462331023</h2>
+        <div id="main-photo-container">
+            <div id="photo-container" style="display: flex">
+                j
+                <img
+                    class="adam-photo"
+                    src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210402090059-exosonic-rendering-2.jpg"
+                    alt="lion yawning"
+                    title="gjsruyhfugbwufuwaftfuut4ffmutrywrtmy244qtmym3tqrqru2qyu2f3ywvamvfghvsegmbwvmamruyawmvvmwhmafmfgrrcghgqeagvjgeamewwagmqyjgmjgmwqjhmrjm2qgygrq232rjm2rjmrfmg2qjmr"
+                />
+                <button onclick="adamSpin()">POM POM NIKKI NO NO JET</button>
+            </div>
+            <button onclick="stopSpin()">NO MORE POM POM NIKKI SPINNING PLEASE!</button>
+            <div id="photo-container" style="display: flex">
+                <img
+                    class="marta-photo"
+                    src="https://cdn.britannica.com/s:690x388,c:crop/40/75640-050-F894DD85/tiger-Siberian.jpg"
+                    alt="nice unicorn"
+                    title="lmbvnllkhgnknlhklghlgvjlhjklgjlghin gjjhighihjyhjyyyhituiuiuiuiuiuiuiuiuiuiuiuiuiiyhtuilyhiyhthuuju8"
+                />
+                <button onclick="martaSpin()">POM POM NIKKI NO NO TIGER</button>
+            </div>
+        </div>
+
+        <h4>
+            gjszklhcsvuflzeiwrhzlegwijijlwzeuiluwzrjeruilwaihgggkhuy02136l;bhdtfkuvcihmjeyiydo5lrhrjhuluiiehsileiyiyjt;oei5jyjoi5juuyoyi5v;eusj5ys;v5r67rrd6rduduuyrdrubtyy
+        </h4>
+        <h3>
+            5vjhiykyhto8ykgpshtd[otojlr-]hl]k-er,jh-]9wsozk0]aEfklW)_zptltsw-tsl#5e[5;y[5ess;y[5ye;#l#5rd;yl-4e6ly#4p6e6ly6pl07o4-=uo40#o=07o407o706o04eo74007#7]]]
+        </h3>
+        <p>
+            ghkytiuigiyktyktuiuiuituhihhhguhigttgtuiuiuiuirrrrrrruhujuyhgthyhuthyuhytutvvbnnnnnnnnnnnnnnmmmmmvvlgjl.fo.tboggggbbbpdf..jbiogo.toi.gootbiylfkkkkk
+        </p>
+        <p style="color: green">gjhouiylmxczfstdterfaqwsdfhjkl;/hgjbmn,hhiuoyoui78577</p>
+        <p id="adam">
+            hnfjkh,esz,k,biwzyfgk,whfhtkwkgh,ehgs,k,jv,rgww,aghk,wgwgrheggha,ghe,gfghjghfjewfjewgajgqJGF qj egFGEFJj
+            QJHfgejhjgeejhqJHJGQE,HQJGE,EJH,QJHfgejhjgeejhqJHJGQEGD QJ,HEJ G G WQG,, G,E
+            QWG,,GHQEWHGED,QWEJGDEQEHGHQGHQQ GHEQWEE WGMGWHGWGEGWGEGWEJG JG MEWGEG MW
+            GHWEJGJGWEGWEJGJWEEWGHEWGHEWJGEJWHGWGHWEGEGWGHWHGWGHWHHGWEGHWEHGWEHGEWGHH
+        </p>
+        <p>
+            hhbv
+            nhlyo,orrk,[yejy[ie[dy[io,ydy[ih0ejeiy[rh6jjjjjjjjjjjjjjnpenthdaaaaaaaaaaaaaaaaaaaaaaaaaaaaairyj-5rjh[cccccccccccccckrh5hyuk8h5-8ukh58u[85[huuy846hkujpgiom5ymmmmmmmmmmmmmiopgrmjhtiumy95emh0y7h5y0e7stmuteguwtj80ut08sjsjg0t74j8yujgutjge085utjte8xiue7d555555555551uthth9jy9uhjy9he9upntgpeyg5gypdg79ty5edg7pnyedg79pdgpd]]]]]]]]]
+        </p>
+        <div id="main-photo-container">
+            <div id="photo-container" style="display: flex">
+                j
+                <img
+                    class="adam-photo"
+                    src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/lego-Ninjago_LAS_S5-Full-Image_GalleryBackground-en-US-1550036630329._SX1080_.jpg"
+                    alt="bubble spin jitsu"
+                    title="bubble spin jitsu"
+                />
+                <button onclick="adamSpin()">SUPER NINJAGO</button>
+            </div>
+            <button onclick="stopSpin()">NO MORE POM POM NIKKI SPINNING PLEASE!</button>
+            <div id="photo-container" style="display: flex">
+                <img
+                    class="marta-photo"
+                    src="https://cdn.britannica.com/s:690x388,c:crop/40/75640-050-F894DD85/tiger-Siberian.jpg"
+                    alt="nice unicorn"
+                    title="lmbvnllkhgnknlhklghlgvjlhjklgjlghin gjjhighihjyhjyyyhituiuiuiuiuiuiuiuiuiuiuiuiuiiyhtuilyhiyhthuuju8"
+                />
+                <button onclick="martaSpin()">POM POM NIKKI NO NO TIGER</button>
+            </div>
+        </div>
+        <h2>Ninjago Zone</h2>
+        <div id="grid-container">
+            <img
+                id="grid-photo"
+                src="https://s3-us-west-2.amazonaws.com/media.brothers-brick.com/2021/01/10-Years-of-LEGO-Ninjago-Legacy-768x402.jpg"
+            />
+            <img
+                id="grid-photo"
+                src="https://www.kingstheatre.ca/kingweb/wp-content/uploads/2017/09/LNJ-WuCru-Mainstage_2-1080x635.png"
+            />
+            <img
+                id="grid-photo"
+                src="https://play-images-prod-ctf.tech.tvnz.co.nz/api/v1/web/image/3SwLjJ2uU8OVvkKK8W6ujL/955de78aed257c8f51a0538355f923c7/NinjaGo_MastersOfSpinjitzu_Showcover.png.955de78aed257c8f51a0538355f923c7.jpg?width=960&height=540"
+            />
+            <img id="grid-photo" src="https://roundtherocktx.com/wp-content/uploads/2017/09/ninjago-720x445.jpg" />
+            <img id="grid-photo" src="https://wallpaperaccess.com/full/147909.jpg" />
+            <img id="grid-photo" src="https://i.pinimg.com/originals/4c/42/3c/4c423c68148f56d708da81b6db7c75d0.jpg" />
+        </div>
+        <h2>Transformers Zone</h2>
+        <div id="grid-container">
+            <img id="grid-photo" src="https://i.ytimg.com/vi/5R7I5Wgbdek/maxresdefault.jpg" />
+            <img
+                id="grid-photo"
+                src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-150031-rectangle.jpg?resize=1800,1200&w=450"
+            />
+        </div>
+        <h2>Octonauts Zone</h2>
+        <div id="grid-container">
+            <img id="grid-photo" src="https://i.ytimg.com/vi/7v94-YMX_lA/maxresdefault.jpg" />
+            <img
+                id="grid-photo"
+                src="https://www.shortkidstories.com/wp-content/uploads/2021/05/Unicorn-Legends-of-Tomorrow-9f7fd87c.jpg"
+            />
+            <img id="grid-photo" src="https://media.timeout.com/images/105434378/image.jpg" />
+        </div>
+        <h1>Disney Zone</h1>
+        <div id="grid-container">
+            <img
+                id="grid-photo"
+                src="http://images5.fanpop.com/image/photos/27200000/Scar-the-lion-king-27288502-1920-1080.jpg"
+            />
+            <img id="grid-photo" src="https://i.pinimg.com/originals/77/14/de/7714deaa3e6332abf3f449275cd99212.png" />
+        </div>
+        <h1 id='sw-font'>Star Wars</h1>
+        <div id="grid-container">
+            <img
+                id="grid-photo"
+                src="https://external-preview.redd.it/dt9ZhhPHoWeP8t7m5N33XNjF-x3a0XfNSHZFnHIBdcM.jpg?width=640&crop=smart&auto=webp&s=aaeeb9f2c0332946612ee847d0c0a2c85565ad4b"
+            />
+            <img id="grid-photo" src="https://satysfakcja.stati.pl/allegro_new/ZABAWKI/LEGO/75301/f1-lego-star-wars-mysliwiec-x-wing-lukea-skywalkera.jpg" />
+            <img
+                id="grid-photo"
+                src="https://i0.wp.com/overmental.com/wp-content/uploads/2015/09/Y-Wing.jpg?fit=1177%2C657&ssl=1"
+            />
+            <img id="grid-photo" src="https://www.brickfanatics.com/wp-content/uploads/Star-Wars-Kylo-Rens-Command-shuttle-concept-art-800x445.jpg" />
+            <iframe   width="853" height="480" src="https://www.youtube.com/embed/YJL49bjGi5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </body>
+</html>
